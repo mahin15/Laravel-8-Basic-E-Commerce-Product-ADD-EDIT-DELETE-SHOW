@@ -22,6 +22,7 @@
 
                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
                         <ul class="sociel">
+                            <li> <a href="https://github.com/mahin15"><i class="fa fa-github"></i></a></li>
                             <li> <a href="https://www.instagram.com/saieedul_mahin/"><i class="fa fa-instagram"></i></a></li>
                             <li> <a href="https://www.linkedin.com/in/saieedulmahin/"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
