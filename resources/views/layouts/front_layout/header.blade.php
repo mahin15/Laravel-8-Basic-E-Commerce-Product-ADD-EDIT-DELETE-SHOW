@@ -9,7 +9,7 @@
                     <div class="full">
                         <div class="center-desk">
                             <div class="logo">
-                                <a href="{{url('/')}}"><img src="{{asset('images/front_images/img/logo.jpg')}}" alt="#"></a>
+                                <a href="{{url('/')}}"><img src="{{asset('images/front_images/img/ecom2.png')}}" alt="#"></a>
                             </div>
                         </div>
                     </div>
