@@ -21,43 +21,43 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Project Brief 
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Hello Every One !
+This is A Basic Laravel E-Commerce Web Project with Functional Admin Panel
+In This Project We Are Using Laravel 8
+In This Project We Are Shown Just Manually Add Product From Admin Panel
+and Show in the main page
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Now Check All Steps 
 
-## Laravel Sponsors
+1) Firstly Install & Setup Properly Laravel Framework Environment
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+2) Then Follow Few Steps
+i. run in command line "composer update"
+ii. run in command line "composer du"
+iii. run in command line "php artisan optimize:clear"
 
-### Premium Partners
+3) In main project file I'm provided also a "php my admin my sql database file" 
+You Have to export in a new table means first create new table, then export there.
+after export successfully took the table name
+and insrt in ".env" file, here's the column "DB_DATABASE=your-table-name"
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/)**
-- **[OP.GG](https://op.gg)**
+4) again run in command line 
+"composer du" then "php artisan optimize:clear"
 
-## Contributing
+5) After Completting all of these 
+then finally run in command line 
+"php artisan serve"
+then 
+run through then local host URL
+like: 
+http://127.0.0.1:8000/
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+6) Here's Important Admin Information
+Admin Dashboard URL 
+http://127.0.0.1:8000/admin/login
+email: admin@gmail.com
+password: 12345678
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# Airsoft-Point
+Now here's the Basic E-Commerce Web Project With Functional Admin Panel
