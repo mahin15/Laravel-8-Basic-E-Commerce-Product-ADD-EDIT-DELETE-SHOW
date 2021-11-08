@@ -52,7 +52,7 @@
         </div>
       
         <div class="copyright">
-            <p><a href="https://www.linkedin.com/in/saieedulmahin/">Copyright @ 2021 All Right Reserved By Saieedul Hasan Mahin</a> </p>
+            <p>Copyright @ 2021 All Right Reserved By <a href="https://www.linkedin.com/in/saieedulmahin/">Saieedul Hasan Mahin</a></p>
         </div>
 
  </div>
