@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 04, 2021 at 08:24 AM
+-- Generation Time: Nov 09, 2021 at 12:33 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.4.15
 
@@ -178,16 +178,6 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `mobile`, `location_status`, `district`, `pin_code`, `address`, `status`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Saieedul Hasan', 'saieedul.hasan97@gmail.com', NULL, '$2y$10$abqZC6eKXaJNU5EkxxwZjOLrOtUzJdimSiEdKl9n1uxTUtnSor7SK', '01521323462', '', '', '', '', 1, NULL, '2021-09-01 23:10:17', '2021-09-01 23:10:33'),
-(6, 'Saieedul Hasan', 'hasan4204201@yopmail.com', NULL, '$2y$10$ibTlxutrK0pFBbT.zCVBMugsjTXKZIUx11z2VgbQwPi/iPdSCY/nS', '01521323462', '', '', '', '', 1, NULL, '2021-09-22 03:27:10', '2021-09-22 03:27:26'),
-(7, 'Hasan', 'hasan42042012@yopmail.com', NULL, '$2y$10$KmThfQIqt4BnmT38oXxfz.losAQx52z0..vGS5CkrlW.oBQ3oep7G', '01234567891', '', '', '', '', 1, NULL, '2021-09-24 15:58:09', '2021-09-24 15:58:37'),
-(8, 'Oli', 'oli212121@yopmail.com', NULL, '$2y$10$lvMGgOQe42YJTzq6B3DxXuTEsKPC/lq6ZZR/nCHmHygJ4h81Wq9.O', '01234567891', '', '', '', '', 1, NULL, '2021-09-24 22:57:30', '2021-09-24 22:57:52');
-
---
 -- Indexes for dumped tables
 --
 
@@ -262,7 +252,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
